@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지</title>
+    <link rel="stylesheet" href="stylejemi.css">
+</head>
+
+<body>
+   <div class= "container">
+    <div class= "header-container">
+        <h3 id="main-title">😀 자기소개서</h3>
+        <button class="action-btn">🎛️ 편집</button>
+    </div>
+
+    <div class="section profile-box">
+        <img src="../../해달_자기소개사진.png" class="profile-img">
+        <div class="profile-text">
+            <h2>양세훈</h2>
+            <p>대학생, 컴퓨터학부 글로벌소프트웨어전공</p>
+            <div class="contact-info">
+                <p>📍 진주, 대한민국</p>
+                <p>📨 sehun404@knu.ac.kr</p>
+                <p>📞 010-6271-6758</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section strength-weakness-box">
+        <div class="half-box left">
+            <p>👍</p>
+            <ul>
+                <li>활동적이다</li>
+                <li>주어진 역할에 최선을 다한다</li>
+            </ul>
+        </div>
+        <div class="half-box right">
+            <p>👎</p>
+            <ul>
+                <li>낯가림이 있다</li>
+                <li>신중하게 고민하다 결정이 늦어진다</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section bucket-box">
+        <p>📋</p>
+        <div class="goal-section">
+	    <h2>버킷리스트</h2>
+	    <p class="goal-description">
+        앞으로 이루고 싶은 목표를 체크리스트로 관리해보세요.
+	    </p>
+
+	    <div class="goal-input-box">
+		    <input
+			    id="goalInput"
+			    type="text"
+			    placeholder="예: 설악산 종주하기"
+		    >
+		    <button id="addGoalBtn">추가</button>
+	</div>
+
+	<p id="errorMessage"></p>
+	<p id="goalCount">현재 목표 0개</p>
+	<ul id="goalList"></ul>
+
+    </div>
+    </div>
+
+    <button id="changeBtn">문구 바꾸기</button>
+    <p id="result">아직 버튼을 누르지 않았습니다.</p>
+
+    <section class="intro-box">
+	<h2>About Me</h2>
+
+	<p id="introText">
+	    안녕하세요. 저는 웹 개발을 배우고 있습니다.
+	</p>
+
+	<button id="changeIntroBtn">소개 문구 바꾸기</button>
+</section>
+
+<script src="./haedal0429.js"></script>
+</body>
+</html>
+
